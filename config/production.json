@@ -1,0 +1,15 @@
+{
+  "server":  {
+    "port":       80,
+    "stackTrace": false
+  },
+  "log":     {
+    "level":      "info",
+    "stackTrace": false
+  },
+  "cluster": {
+    "count":   0,
+    "respawn": true,
+    "verbose": true
+  }
+}

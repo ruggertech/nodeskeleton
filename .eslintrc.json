@@ -1,0 +1,18 @@
+{
+	"extends": "airbnb",
+	"plugins": [
+		"react"
+	],
+	"rules":   {
+		"semi": [
+			"error",
+			"always"
+		],
+		"quotes": [
+			"error",
+			"single"
+		],
+		"no-multi-spaces": "off",
+		"no-use-before-define": ["error", { "functions": false, "classes": true }]
+	}
+}
